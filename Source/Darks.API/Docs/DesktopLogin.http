@@ -1,0 +1,15 @@
+﻿@hostname=localhost
+@port=7185
+
+POST https://{{hostname}}:{{port}}/api/auth/desktopclientlogin
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "pass",
+    "hwid": "123",
+    "displayWidth": 1440,
+    "displayHeight": 2560
+}
+
+###

@@ -1,0 +1,14 @@
+﻿using Darks.Core.ViewModels.Process;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Darks.Desktop.Infrastructure.Interfaces
+{
+    public interface IProcessConfigProvider
+    {
+        Task<ProcessConfigViewModel> GetConfigAsync();
+    }
+}

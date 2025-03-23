@@ -1,0 +1,12 @@
+﻿@hostname=localhost
+@port=7185
+
+POST https://{{hostname}}:{{port}}/api/auth/webclientlogin
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "pass"
+}
+
+###

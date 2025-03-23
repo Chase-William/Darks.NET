@@ -1,0 +1,60 @@
+{
+  "Resolution": {
+    "Id": 5,
+    "Width": 2560,
+    "Height": 1440
+  },
+  "InventoryScreenConfig": {
+    "IsSelfInventroyOpenPixel": {
+      "Position": {
+        "X": 5,
+        "Y": 10
+      },
+      "Color": {
+        "Red": 1,
+        "Green": 2,
+        "Blue": 3
+      }
+    },
+    "IsOtherInventroyOpenPixel": {
+      "Position": {
+        "X": 15,
+        "Y": 20
+      },
+      "Color": {
+        "Red": 4,
+        "Green": 5,
+        "Blue": 6
+      }
+    },
+    "SelfToOtherTransferBtnPos": {
+      "X": 25,
+      "Y": 30
+    },
+    "OtherToSelfTransferBtnPos": {
+      "X": 35,
+      "Y": 40
+    },
+    "SelfFirstSlotPos": {
+      "X": 45,
+      "Y": 50
+    },
+    "OtherFirstSlotPos": {
+      "X": 55,
+      "Y": 60
+    }
+  },
+  "ParasaurAlarmScreenConfig": {
+    "AlarmScreenshotRect": {
+      "Left": 5,
+      "Top": 10,
+      "Right": 15,
+      "Bottom": 20
+    },
+    "AlarmColor": {
+      "Red": 1,
+      "Green": 2,
+      "Blue": 3
+    }
+  }  
+}
